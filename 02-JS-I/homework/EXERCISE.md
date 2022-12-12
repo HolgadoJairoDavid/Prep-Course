@@ -57,7 +57,7 @@ Son aquellas que se especializan en el control de flujos, para verificar si algo
 Ejemplo: 
 
 > function primerNombre(nombre) {
-    if (nombre = 'Jairo') {
+    if (nombre = 'Jairo') {}
         return true;
     }
     return false;
@@ -65,6 +65,8 @@ Ejemplo:
 
 > primerNombre ('David')
 > false
+
+Como podemos ver, se utiliza la palabra clave "if", seguida de la condición entre paréntesis que deseamos colocar. Luego, se debe establecer (entre llaves "{}"), lo que queremos que suceda a la hora de verificar el argumento. Cabe aclarar que, para anexar una condición más, podemos hacerlo seguida de la anterior, sólo que, en lugar de usar sólo "if", se hace uso de "else if". 
 
  * Valores booleanos (`true`, `false`)
 
