@@ -1,0 +1,40 @@
+body {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #FFFF;
+}
+
+h1 {
+    color :rgb(240, 209, 169);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color:rgb(255, 227, 185);
+    padding: 50px;
+    border-color:brown;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    text-align: justify;
+}
